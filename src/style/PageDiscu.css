@@ -1,0 +1,73 @@
+.pageDiscucorps{
+    height: 100%;
+    width: 70%;
+    left: 30%;
+    position: absolute;
+    background-color: rgb(14, 22, 33);
+    display: flex;
+    flex-direction:column;
+    overflow: hidden;
+}
+.listICo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+}
+.PageDiscuheader{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(23, 33, 43);
+}
+.listeicoparams{
+    color: rgb(199, 198, 198);
+    padding-left: 10px;
+    
+}
+
+.listt{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.textecrit{
+   
+    font-size: 12px;
+    outline: 0;
+    background-color: rgb(36, 47, 61);
+    border: none;
+    padding: 0.6rem 0;
+   display: block;
+
+}
+.textecrit:placeholder{
+    text-align: start;
+    padding-left: 0.5rem;
+}
+.PageDiscufooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+    background-color: rgb(36, 47, 61);
+    
+}
+
+.simeso{
+    flex: 1;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.listeicoparams:hover{
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,33 @@
+.chats{
+width: 100%;
+height: 100%;
+padding: 0 15px;
+position: relative;
+color: #fff;
+text-align: start;
+font-size: 0.9rem;
+}
+.client-chat{
+    width: 40%;
+    word-wrap: break-word;
+    background-color: rgb(24, 37, 51);
+    padding: 7px 10px;
+    border-radius: 10px 10px 10px 0;
+    margin: 10px 0;
+}
+.my-chat{
+    width: 40%;  
+    word-wrap: break-word;
+    background-color: rgb(66, 155, 219);
+    padding: 7px 10px;
+    border-radius: 10px 10px 0px 10px;
+    margin: 5px 0 5px auto;
+
+}
+span{
+    color: rgb(66, 155, 219);;
+}
+.pa{
+    font-size: 0.9rem;
+    color: #fff;  
+}

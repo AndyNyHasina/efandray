@@ -1,0 +1,65 @@
+img{
+    display: block;
+}
+.message:hover{
+    background-color: rgb(36, 47, 61);
+}
+.message{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+h1{
+    text-align: start;
+    font-size: 13px;
+    color: white;
+}
+p{
+    font-size: 11px;
+    text-align: start;
+    color: rgb(81, 101, 128);
+    
+}
+.sary{
+    flex: 1;
+}
+.soratra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex:4;
+    padding: 10px;
+}
+.pligne{
+display: flex;
+justify-content: space-between;
+}
+.dligne{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+text-align: center;
+}
+.msgnonlu{
+border-radius: 30%;
+background-color: gray;
+width: 2rem;
+height: 1.8rem;
+align-content: center;
+}
+#msg{
+text-align: center;
+font-weight: 700;
+letter-spacing: 1;
+color: white;
+}
+.ico-nom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icoa{
+    color: rgb(204, 202, 202);
+}

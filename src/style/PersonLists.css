@@ -1,0 +1,59 @@
+.search-input{
+   
+    font-size: 12px;
+    display: block;
+    min-width: 24vw;
+    outline: 0;
+    background-color: rgb(36, 47, 61);
+    border: none;
+    padding: 0.6rem 0;
+    padding-top: 15px;
+
+    
+}
+.search-input::placeholder{
+    text-transform: capitalize;
+    padding-left: 2rem;
+}
+.headers{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    padding: 15px;
+   
+    display: flex;
+   
+    align-items: center;
+}
+.Plistes{
+   
+   background-color: rgb(23, 33, 43);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    width: 30%;
+    position: absolute;
+}
+.iconmen{
+    color: rgb(172, 172, 172);
+   
+}
+.icobu{
+    flex: 0.5rem;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(36, 47, 61)
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(66, 155, 219);
+}
+.listetiles{
+    width: 100%;
+    height: 90%;
+    top: 10%;
+    position: absolute;
+    padding-top:15px ;
+}

@@ -1,0 +1,32 @@
+.idiv_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.idiv_info{
+
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 9px;
+    font-weight: 500;
+    color: white;
+}
+.idivuser{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(39, 104, 153);
+    font-size: 12px;
+}
+.menuButton{
+    color: rgb(14, 69, 110);
+    background-color: rgb(23, 85, 133);
+}
